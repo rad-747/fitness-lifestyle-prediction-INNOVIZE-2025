@@ -36,6 +36,27 @@ The goal is to classify individuals as "healthy" or "unhealthy" based on daily h
 - scikit-learn
 - mlxtend (for decision region plotting)
 
+## 📊 Model Performance
+
+The Logistic Regression model achieved excellent performance:
+
+- **Training Accuracy**: 99.52%
+- **Testing Accuracy**: 99.42%
+
+Below is the classification report summary:
+
+| Class | Precision | Recall | F1-Score | Support |
+|-------|-----------|--------|----------|---------|
+| 0 (Unhealthy) | 1.00 | 0.99 | 1.00 | 822 |
+| 1 (Healthy)   | 0.99 | 0.99 | 0.99 | 378 |
+
+- **Overall Accuracy**: 99.42%
+- **Macro F1-Score**: 0.99
+
+<p align="center">
+  <img src="classification_report.png" alt="Classification Report and Accuracy" width="600"/>
+</p>
+
 ##  How to Run
 
 1. Clone the repository:
