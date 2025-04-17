@@ -36,26 +36,28 @@ The goal is to classify individuals as "healthy" or "unhealthy" based on daily h
 - scikit-learn
 - mlxtend (for decision region plotting)
 
-## 📊 Model Performance
+##  Model Performance
 
 The Logistic Regression model achieved excellent performance:
 
 - **Training Accuracy**: 99.52%
 - **Testing Accuracy**: 99.42%
 
-Below is the classification report summary:
+<img width="446" alt="image" src="https://github.com/user-attachments/assets/3cddd0e4-14c4-4bbb-9f99-f939080ccaec" />
 
-| Class | Precision | Recall | F1-Score | Support |
-|-------|-----------|--------|----------|---------|
-| 0 (Unhealthy) | 1.00 | 0.99 | 1.00 | 822 |
-| 1 (Healthy)   | 0.99 | 0.99 | 0.99 | 378 |
 
 - **Overall Accuracy**: 99.42%
 - **Macro F1-Score**: 0.99
+##  Decision Boundary Visualization
 
-<p align="center">
-  <img src="classification_report.png" alt="Classification Report and Accuracy" width="600"/>
-</p>
+This visualization shows how the logistic regression model classifies individuals based on **physical fitness** and **mindfulness** (both scaled). The shaded regions represent the model's decision boundary:
+
+- Red Region: Predicted as Unhealthy (0)
+- Blue Region: Predicted as Healthy (1)
+
+<img width="847" alt="image" src="https://github.com/user-attachments/assets/fd3a48b8-502a-485a-9839-7b411316786b" />
+
+
 
 ##  How to Run
 
