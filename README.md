@@ -42,12 +42,11 @@ The Logistic Regression model achieved excellent performance:
 
 - **Training Accuracy**: 99.52%
 - **Testing Accuracy**: 99.42%
-
-<img width="446" alt="image" src="https://github.com/user-attachments/assets/3cddd0e4-14c4-4bbb-9f99-f939080ccaec" />
-
-
 - **Overall Accuracy**: 99.42%
 - **Macro F1-Score**: 0.99
+
+  <img width="446" alt="image" src="https://github.com/user-attachments/assets/3cddd0e4-14c4-4bbb-9f99-f939080ccaec" />
+
 ##  Decision Boundary Visualization
 
 This visualization shows how the logistic regression model classifies individuals based on **physical fitness** and **mindfulness** (both scaled). The shaded regions represent the model's decision boundary:
